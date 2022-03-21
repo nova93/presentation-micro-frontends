@@ -176,8 +176,8 @@ Check out [the guides](https://sli.dev/builtin/components.html) for more.
 </div>
 </div>
 
-
 ---
+
 class: px-20
 ---
 
@@ -209,6 +209,7 @@ Read more about [How to use a theme](https://sli.dev/themes/use.html) and
 check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
 
 ---
+
 preload: false
 ---
 
@@ -372,8 +373,8 @@ database "MySql" {
 
 [Learn More](https://sli.dev/guide/syntax.html#diagrams)
 
-
 ---
+
 layout: center
 class: text-center
 ---
