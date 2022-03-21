@@ -11,17 +11,17 @@ info: |
 drawings:
   persist: false
 layout: section
-src: slides/intro.md
+src: ./slides/intro.md
 ---
 
 ---
 layout: default-7
-src: slides/presentation-overview
+src: ./slides/presentation-overview.md
 ---
 
 ---
 layout: default-6
-src: slides/the-old-way
+src: ./slides/the-old-way.md
 ---
 
 ---
