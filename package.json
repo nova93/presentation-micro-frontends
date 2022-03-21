@@ -8,7 +8,11 @@
   "dependencies": {
     "@slidev/cli": "^0.28.10",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "@slidev/theme-shibainu": "0.0.2"
   },
-  "name": "presentation-micro-frontends"
+  "name": "presentation-micro-frontends",
+  "devDependencies": {
+    "@iconify-json/uim": "^1.1.1"
+  }
 }
