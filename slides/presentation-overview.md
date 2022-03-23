@@ -19,6 +19,10 @@
 </style>
 
 <!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
+I'll start off with a quick look at the way we used to do things, some of which is still kicking around.
+
+Then, I'll give an overview of micro-frontends, backend-for-frontend and micro-services.
+
+With that shared understanding, I'll showcase the new process and the new architecture we are moving towards.
+And finally, I'll end with a look into the future.
 -->

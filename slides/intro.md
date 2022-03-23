@@ -7,5 +7,4 @@ An overview of Micro-frontends and BFF architectures
 
 <!--
 - Welcome
-- Over the last year, web engineering has been on quite an architectural journey :-)
 -->

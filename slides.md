@@ -6,7 +6,7 @@ highlighter: shiki
 lineNumbers: false
 favicon: https://images.unsplash.com/photo-1561106230-04eb4ff57511?auto=format&fit=crop&w=64&q=80
 info: |
-  ## Micro-frontends & BFFs
+  # Micro-frontends & BFFs
   An overview of Micro-frontends and BFF architectures
 drawings:
   persist: false
@@ -26,71 +26,34 @@ src: ./slides/the-old-way.md
 
 ---
 layout: default-3
+src: ./slides/micro-frontends.md
 ---
 
-# Monolithic Front-end
+---
+layout: default-4
+src: ./slides/bff.md
+---
 
-`my-ocf-app`
+---
+layout: section-2
+---
+
+<img src="/bff.jpg" />
 
 <!-- ./components/SelfPromo.vue -->
 <SelfPromo />
 
 ---
+layout: default-5
+src: ./slides/micro-service.md
+---
 
-# Diagrams
+---
+layout: default
+src: ./slides/the-new-way.md
+---
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
-
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
+---
+layout: default-7
+src: ./slides/future.md
+---
